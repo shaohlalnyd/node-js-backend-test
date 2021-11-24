@@ -1,0 +1,16 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = "mysql://root:9309864553s@@localhost:3306/uniplato"
+}
+
+model category {
+  latitude  Int?
+  longitude Int?
+  category  String? @db.VarChar(255)
+  counter   Int?
+  id        Int     @id @default(autoincrement())
+}
