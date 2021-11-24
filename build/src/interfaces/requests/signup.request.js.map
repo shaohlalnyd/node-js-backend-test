@@ -1,0 +1,1 @@
+{"version":3,"file":"signup.request.js","sourceRoot":"","sources":["../../../../src/interfaces/requests/signup.request.ts"],"names":[],"mappings":"","sourcesContent":["export default interface SignUpRequest {\n  firstName: string;\n  lastName: string;\n  email: string;\n  password: string;\n  userName: string;\n}\n"]}
